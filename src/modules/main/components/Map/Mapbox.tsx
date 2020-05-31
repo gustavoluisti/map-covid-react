@@ -3,7 +3,7 @@ import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import styles from "./Mapbox.module.css";
 
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_API_KEY;
+mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_API_KEY!;
 const centerLocation: mapboxgl.LngLatLike = [5, 34];
 
 export default function MapBox() {
