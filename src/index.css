@@ -1,3 +1,7 @@
+:root {
+  --color-primary: #0e2c66;
+  --side-width: 350px;
+}
 *,
 *::before,
 *::after {
